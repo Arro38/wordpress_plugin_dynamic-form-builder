@@ -1,0 +1,117 @@
+#dfb-questions-container {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+}
+
+.dfb-questions-list {
+    margin-bottom: 20px;
+}
+
+.question-item {
+    background: #f8f9fa;
+    border: 1px solid #e2e4e7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.answers-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+}
+
+.answers-container h4 {
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e4e7;
+}
+
+.answer-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f8f9fa;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+}
+
+.answer-item input[type="text"],
+.answer-item input[type="url"] {
+    width: 100%;
+}
+
+.question-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.question-item input[type="text"],
+.question-item select,
+.question-item textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+}
+
+.question-item textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.remove-question {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.remove-question:hover {
+    background: #dc3545 !important;
+    color: #fff !important;
+}
+
+.remove-answer {
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    padding: 4px 8px !important;
+    height: auto !important;
+}
+
+.remove-answer:hover {
+    background: #dc3545 !important;
+    color: #fff !important;
+}
+
+.add-answer {
+    margin-top: 10px !important;
+}
+
+#add-question {
+    margin-top: 20px;
+    padding: 10px 20px;
+    height: auto;
+    font-size: 14px;
+}
+
+.action-value-container {
+    width: 100%;
+}
+
+.action-value-container select,
+.action-value-container input {
+    width: 100%;
+    max-width: 100%;
+}
